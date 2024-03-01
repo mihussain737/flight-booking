@@ -24,8 +24,15 @@ public class User {
 	public void setUId(Long uId) {
 		UId = uId;
 	}
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public String getFirstName() {
 		return firstName;
+	}
+	public String getEmail() {
+		return email;
 	}
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -36,9 +43,7 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	public String getEmail() {
-		return email;
-	}
+
 	public void setEmail(String email) {
 		this.email = email;
 	}
